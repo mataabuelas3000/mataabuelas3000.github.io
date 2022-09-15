@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Patrick hand';
+
+
+}
+html{
+    scroll-behavior: smooth;
+} 
+section{
+    height: 150vh;    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#inicio{
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#a1946{
+    background-color:darkturquoise ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#a1956{ 
+    background-color:paleturquoise;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100%
+}
+#a1964{
+    background-color:gainsboro;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#a1972{
+    background-color:salmon;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#a1983{
+    background-color:palegoldenrod;   
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll; 
+    background-size: 100%;     
+}
+#a2000{
+    background-color:rosybrown;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#inicio h1{
+    font-size: 68px;
+    letter-spacing: 10px;
+    background-color: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 20px;
+    margin-top: 20px;
+    z-index: 1;
+
+}
+section h2{ 
+    font-size: 50px;
+    letter-spacing: 5px;  
+    text-align:center;
+    background-color: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    margin-top: 15px;
+    z-index: 1;
+    width:1263px;
+}
+section h3{ 
+    font-size: 20px;
+    letter-spacing: 5px;  
+    text-align:center;
+    background-color: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 20px;
+    margin-top: 40px;
+    z-index: 1;
+
+
+}
+.texto1
+{
+    z-index: 1;
+    width: 630px;
+    height: 530px;
+    justify-items: left;
+    padding: 20px 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction:column;
+    flex-wrap: wrap;
+    display:flow-root;
+    margin-top: 30px;
+    position:relative
+}        
+.texto1 img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.texto2 
+{
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    justify-items: left;
+    padding: 20px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction:column;
+    flex-wrap: wrap;
+    display:flow-root;
+    margin-top: 30px;
+    position:relative
+}        
+.texto2 img{
+    width: 290px;
+    border-radius: 3px;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+}.texto3 
+{
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    justify-items: left;
+    padding: 20px 20px;
+    font-size: 21px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction:column;
+    flex-wrap: wrap;
+    display: flow-root;
+    margin-top: 30px;
+    position:relative
+}        
+.texto3 img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+.texto4
+{
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    justify-items: left;
+    padding: 20px 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction:column;
+    flex-wrap: wrap;
+    display: flow-root;
+    margin-top: 30px;
+    position:relative
+}        
+.texto4 img{
+    width: 310px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+}
+.texto5
+{
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    justify-items: left;
+    padding: 20px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction:column;
+    flex-wrap: wrap;
+    display: flow-root;
+    margin-top: 30px;
+    position:relative
+}        
+.texto5 img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+.texto6
+{
+    z-index: 1;
+    width: 700px;
+    height: 500px;
+    justify-items: left;
+    padding: 20px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex-direction:column;
+    flex-wrap: wrap;
+    display: flow-root;
+    margin-top: 30px;
+    position:relative
+}        
+.texto6 img{
+    width: 310px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+}
+section img{
+    margin-top: 40px;
+    max-width: 300px;
+}
+.contenedor-tiempo{
+    position:fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex ;
+    justify-content: center;
+    
+}
+.contenedor-tiempo .linea{
+    width: 400px;
+    position:absolute;
+    top: 30px;
+    height: 2px;
+    background-color: black;
+    z-index: -2px;
+}
+.fecha{
+    display:inline-block;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2d4059;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transform: scale(1);
+    transition: background-color, transform .5s linear;
+}
+.seleccionado{
+    transform: scale(1.2);
+    background-color:white ;
+    color: #000;
+    font-weight:bold;
+}
